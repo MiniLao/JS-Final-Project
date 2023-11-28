@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>WEB-115 Final Project</title>
+    <link rel="stylesheet"
+          href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Perfectly Portioned Fitness</h1>
+        <p>WEB-115 | Section 0001</p>
+        <h2>Build Your Meal Plan</h2>
+    </header>
+
+    <main>
+        <form id="mealPlanForm">
+            <label for="name">Name:</label>
+            <input type="text"
+                   id="name"
+                   name="name"
+                   required>
+
+            <label for="email">Email:</label>
+            <input type="email"
+                   id="email"
+                   name="email"
+                   required>
+
+            <label for="goal">Goal for the Week:</label>
+            <textarea id="goal"
+                      name="goal"
+                      rows="4"
+                      required></textarea>
+
+            <h3>Meal Plan for the Week</h3>
+
+            <label for="breakfast">Breakfast:</label>
+            <input type="text"
+                   id="breakfast"
+                   name="breakfast"
+                   required>
+
+            <label for="snack1">Snack 1:</label>
+            <input type="text"
+                   id="snack1"
+                   name="snack1"
+                   required>
+
+            <label for="lunch">Lunch:</label>
+            <input type="text"
+                   id="lunch"
+                   name="lunch"
+                   required>
+
+            <label for="snack2">Snack 2:</label>
+            <input type="text"
+                   id="snack2"
+                   name="snack2"
+                   required>
+
+            <label for="dinner">Dinner:</label>
+            <input type="text"
+                   id="dinner"
+                   name="dinner"
+                   required>
+
+            <button type="button"
+                    onclick="generateMealPlan()">Generate Meal Plan</button>
+            <button type="button"
+                    onclick="clearMealPlan()">Clear Meal Plan</button>
+            <button type="button"
+                    onclick="printMealPlan()">Print Meal Plan</button>
+            <button type="button"
+                    onclick="downloadMealPlan()">Download Meal Plan</button>
+
+
+        </form>
+    </main>
+
+    <script src="projectJS.js"></script>
+</body>
+
+</html>
