@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 function generateMealPlan()
 {
     // Get user input
@@ -90,7 +89,6 @@ function generateMealPlanContentForDownload()
     // Similar to generateMealPlan() but returns a plain text content for download
     // Use the user input to construct the content
 }
-=======
 function generateMealPlan()
 {
     // Get user input
@@ -182,4 +180,3 @@ function generateMealPlanContentForDownload()
     // Similar to generateMealPlan() but returns a plain text content for download
     // Use the user input to construct the content
 }
->>>>>>> f6fd87c99b11e849f6463e829fcce49372dd2d57
